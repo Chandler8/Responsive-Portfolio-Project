@@ -52,6 +52,11 @@ footer {
     
 }
 
+.col-lg-6 {
+    padding-bottom: 5%;
+    height: 200px;
+}
+
 
 * {
     box-sizing: border-box;
