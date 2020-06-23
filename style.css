@@ -1,121 +1,116 @@
-nav{
-    padding-top: 12px;
-    
+nav {
+  padding-top: 12px;
 }
 
 .navbar-header {
-    margin:  -25px 0px !important;
-    padding:  13px 40px !important;
-    background-color: #9173c2; 
-    font-weight: bolder;
+  margin: -25px 0px !important;
+  padding: 13px 40px !important;
+  background-color: #9173c2;
+  font-weight: bolder;
 }
 
 .navbar-brand {
-    font-size: x-large;
-    color: ghostwhite !important;
+  font-size: x-large;
+  color: ghostwhite !important;
 }
 
 .col-2 {
-    color: ivory;
+  color: ivory;
 }
 
 body {
-    background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700445802.jpg);
-    background-size: 100%;
+  background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700445802.jpg);
+  background-size: 100%;
 }
 
 .img-responsive {
-    float: left;
-    padding-right: 3%;
-    
+  float: left;
+  padding-right: 3%;
 }
 
-
-
-
-.col-md-12{
-    background-color: rebeccapurple;
+.col-md-12 {
+  background-color: rebeccapurple;
 }
-
 
 h2 {
-    color: mediumorchid;
-    border-bottom-style: solid; padding-bottom: 3%;
+  color: mediumorchid;
+  border-bottom-style: solid;
+  padding-bottom: 3%;
 }
 
 .wrapper {
-    margin-right: 70% !important;
+  margin-right: 70% !important;
 }
 
 footer {
-    margin-top: 40%;
-    
+  margin-top: 40%;
+  color: #ccc;
+  
 }
 
 .col-lg-6 {
-    padding-bottom: 5%;
-    height: 200px;
+  padding-bottom: 5%;
+  height: 200px;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 
-* {
-    box-sizing: border-box;
-  }
-  
-  /*
-    The background color will be #ccc
-    at browser widths above 768px
-  */
-  body {
-    /* Typography */
-    font-size: 14px;
-    line-height: 25px;
-    
-  
-    /* Visual */
-    background-color: #ccc;
-  }
-  
-  /*
-    The width of the wrapper will be 1024px
-    at browser widths above 768px
-  */
-  .wrapper {
-    /* Box-model */
-    width: 1024px;
-  
-    /* Positioning */
-    margin: 40px auto;
-  }
-  
-  #main-content,
-  #sidebar {
-    /* Box-model */
-    width: 700px;
-    padding: 30px;
-  }
-  
-  #main-content {
-    /* Positioning */
-    float: left;
-  
-    /* Visual */
-    background: #fff;
-  }
-  
-  #sidebar {
-    /* Positioning */
-    float: right;
-  
-    /* Visual */
-    background: #eee;
-  }
-  
-  /*
+body {
+  /* Typography */
+  font-size: 14px;
+  line-height: 25px;
+
+  /* Visual */
+  background-color: #ccc;
+}
+
+.wrapper {
+  /* Box-model */
+  width: 1024px;
+
+  /* Positioning */
+  margin: 40px auto;
+}
+
+#main-content,
+#sidebar {
+  /* Box-model */
+  width: 700px;
+  padding: 30px;
+}
+
+#main-content {
+  /* Positioning */
+  float: left;
+
+  /* Visual */
+  background: #fff;
+}
+
+#sidebar {
+  /* Positioning */
+  float: right;
+
+  /* Visual */
+  background: #eee;
+}
+
+/* // Extra small devices (portrait phones, less than 576px)
+// No media query since this is the default in Bootstrap */
+
+/* // Small devices (landscape phones, 576px and up) */
+@media screen and (min-width: 576px) {
+}
+
+
+/*
     These rules take effect when the browser's width
     is either 768px or less.
   */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     /* The body's bg color will be #333 */
     body {
       background-color: #333;
@@ -126,3 +121,8 @@ footer {
       width: 600px;
     }
   }
+
+/* // Large devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+
+}
