@@ -1,5 +1,5 @@
 nav{
-    padding-top: 15px;
+    padding-top: 12px;
 }
 
 .navbar-header {
@@ -10,9 +10,13 @@ nav{
 }
 
 .navbar-brand {
-    color: ivory;
+    font-size: x-large;
+    color: ghostwhite !important;
 }
 
+.col-2 {
+    color: ivory;
+}
 
 body {
     background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700445802.jpg);
