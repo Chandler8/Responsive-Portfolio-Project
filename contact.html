@@ -11,18 +11,62 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
         integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
 
-        <!-- reset file -->
-        <link rel="reset.css" href="reset.css">
-        <!-- style file -->
-        <link rel="stylesheet" href="style.css">
+    <!-- reset file -->
+    <link rel="reset.css" href="reset.css">
+    <!-- style file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Internal Styling for Contact form -->
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 100%;
+            padding: 6px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin-top: 6px;
+
+        }
+
+        input[type=submit] {
+            background-color: blueviolet;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: magenta;
+        }
+
+        .container {
+            border-radius: 5px;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+    </style>
 
 
 </head>
 
 <body>
+    <!-- Begin Nav -->
     <nav class="navbar navbar-default">
         <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
+
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -34,7 +78,6 @@
                 <a class="navbar-brand" href="#">Chandler Lowrance</a>
             </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav"> </ul>
 
@@ -43,10 +86,41 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
+            </div>
+        </div>
     </nav>
-    <h1>Hello, Contact!</h1>
+    <!-- End Nav -->
+
+    <article>
+
+        <div class="wrapper">
+            <div class="col-md-8">
+                <section id="main-content">
+                    <h2>Contact</h2>
+                    <br>
+
+
+                    <form action="/action_page.php">
+                        <label for="fname">Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                        <label for="lname">Email</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your email address..">
+
+
+                        <label for="subject">Message</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.."
+                            style="height:200px"></textarea>
+
+                        <input type="submit" value="Submit">
+                    </form>
+            </div>
+            </section>
+        </div>
+
+        </div>
+    </article>
+    <br>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"
